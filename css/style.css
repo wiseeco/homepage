@@ -1,7 +1,7 @@
 /*
  * Author: wiseeco
  */
- 
+
 .font-thin {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 200;
@@ -421,19 +421,6 @@ body {
     color: #e4e6e5;
 }
 
-#slide-7 {
-    background-color: #e74c3c;
-    color: #e4e6e5;
-    padding-top: 90px;
-}
-/*#slide-7 {*/
-    /*background-color: #e4e6e5;*/
-    /*color: #4e4e4e;*/
-    /*font-size: 35px;*/
-    /*line-height: 50px;*/
-    /*text-align: center;*/
-/*}*/
-
 @media (max-width: 767px) {
 	#slide-6 {
 		background-image: none;
@@ -626,6 +613,5 @@ body {
     color: #000000;
     height: 600px;
 }
-
 /*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
 /** { font-family: 'Nanum Gothic', sans-serif; }*/

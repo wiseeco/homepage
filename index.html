@@ -72,7 +72,6 @@
     <div class="container">
         <div id="home-row-1" class="row clearfix">
             <div class="col-12">
-                <!--<h1 class="font-semibold">(주)<span class="font-thin">와이즈에코</span></h1>-->
                 <img src="images/wiseeco/main_logo.png">
                 <h4 class="font-thin"><span class="font-semibold">UNIQUE</span> For Customer, Developer.</h4>
                 <br>
@@ -164,7 +163,6 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-4 col-sm-6">
-                <!--<h1 class="font-thin"><span class="font-semibold">IRIS</span></h1>-->
                 <img src="images/wiseeco/text_iris.png"/>
             </div>
             <!-- /col12 -->
@@ -183,7 +181,21 @@
                 <br/>
 
                 <h4><i class="icon icon-asterisk size20"></i> IRIS 아키텍처</h4>
-                <ol>
+                <div class="left-depth1">
+                    빌드와 배포를 위한 기본 Feature로 <strong>5가지 메인 기능(권한관리, 설정, 빌드, 배포, 통계)</strong> 으로 개발되어 있다.<br/>
+                    <strong>jenkins</strong>가 필요한 빌드를 수행, <strong>chef</strong>가 필요한 소프트웨어를 설치, <strong>glu</strong>가 배포를 진행한다.
+                    그리고 예약 작업은 <strong>Chronos</strong>를 통해서, 소스 관리는 <strong>gitlab</strong>, <strong>gitblit</strong> 등 오픈 소스를 통해 제공, 산출물 관리는 <strong>artifactory</strong>에서 한다.
+                    롤 부분은 테스트 커버리지, 코드 커버리지, 정적 분석 지표, 관리자 등을 선택해서 배포 권한을 줄 수 있다.
+                </div><br/>
+                  <div class="center-img">
+                    <a class="fancybox" href="images/wiseeco/iris_build_deploy_archi.png">
+                        <img class="thumb img-thumbnail" src="images/wiseeco/iris_build_deploy_archi.png" alt=""/>
+                    </a>
+                </div>
+                <br/>
+
+                <h4><i class="icon icon-asterisk size20"></i> IRIS 실행 시나리오</h4>
+               <ol>
                     <li>먼저 git 서버에서 리포지토리 정보를 가져와서 사용자가 볼 수 있는 프로젝트 리스트를 보여주고 등록할 프로젝트를 선택한다.</li>
                     <li>빌드 서버를 등록하고, 배포할 서버를 등록한 다음, 등록할 프로젝트에 빌드와 배포 설정 정보를 셋팅해서 빌드와 배포를 진행할 수 있도록 한다. 필요할 경우 스케쥴링
                         기능이 있으면 자동으로 빌드와 배포를 수행하게 할 수 있다.
@@ -201,11 +213,6 @@
                     <li>배포가 정상적으로 끝나면 통계 페이지에서 결과를 그래프 형태로 보여줘서 결과를 쉽게 인지 할 수 있도록 한다.</li>
                     <li>데모 : <a class="m-pointer" onclick="goToLink('http://14.63.197.162/')">http://14.63.197.162/</a></li>
                 </ol>
-                <div class="center-img">
-                    <a class="fancybox" href="images/wiseeco/iris_build_deploy_archi.png">
-                        <img class="thumb img-thumbnail" src="images/wiseeco/iris_build_deploy_archi.png" alt=""/>
-                    </a>
-                </div>
             </div>
 
         </div><!-- /row -->
@@ -218,7 +225,6 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-4 col-sm-6">
-                <!--<h1 class="font-thin">WISE<span class="font-semibold-color">PUSH</span></h1>-->
                 <img src="images/wiseeco/text_wisepush.png"/>
             </div><!-- /col12 -->
         </div><!-- row -->
@@ -368,9 +374,7 @@
 <script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
 <script src="js/script.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-<!--<script src="js/map.js"></script>-->
 <script src="js/map.js"></script>
-
 <!-- fancybox init -->
 <script>
     $(document).ready(function (e) {
